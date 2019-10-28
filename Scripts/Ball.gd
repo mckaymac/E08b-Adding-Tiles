@@ -12,4 +12,4 @@ func _physics_process(delta):
     
     if position.y > get_viewport_rect().end.y:
      	queue_free()
-     	print("Dies")
+     	print("Died")
